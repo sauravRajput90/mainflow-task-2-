@@ -12,14 +12,14 @@ DURATION-25 July 2024 to 25 September 2024.
 Pandas is an efficient and versatile working environment for database processing and analysis in a programming language called Python. Some of the functions of NumPy are that it offers efficient, simple-to-implement vectors and arrays and data analysis. 
 
 ## CORE CONCEPT
-- Series __bold text__: An array similar to vectors but maybe one-dimensional labeled that can accommodate any type of data – integers, floats, strings and objects among others.  
-- DataFrame: A two-dimensional data structure used to describe data and label it, where the column can contain potentially objects of different types.
+- __Series__ : An array similar to vectors but maybe one-dimensional labeled that can accommodate any type of data – integers, floats, strings and objects among others.  
+- __DataFrame__: A two-dimensional data structure used to describe data and label it, where the column can contain potentially objects of different types.
 
 # Key Data Manipulation Operations
 ## Data Ingestion and Export
-- Reading data: Pandas can read data from various file formats like CSV, Excel, JSON, SQL, etc.  
-- pd.read_csv('file.csv')  
-- pd.read_excel('file.xlsx  
+- __Reading data__: Pandas can read data from various file formats like CSV, Excel, JSON, SQL, etc.  
+    - pd.read_csv('file.csv')  
+    - pd.read_excel('file.xlsx  
 - Writing data: Export DataFrames to different formats.  
 - df.to_csv('output.csv')  
 - df.to_excel('output.xlsx')
