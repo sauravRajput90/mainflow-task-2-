@@ -25,7 +25,7 @@ Pandas is an efficient and versatile working environment for database processing
     - df.to_excel('output.xlsx')
 
 ## Data Exploration
-- __Viewing dat__a: head(), tail(), sample()  
+- __Viewing data__: head(), tail(), sample()  
 - __Getting information__: info(), describe(), dtypes  
 - __Checking for missing values__: isnull(), isna(), fillna(), dropna()  
 - __Handling duplicates__: drop_duplicates() 
