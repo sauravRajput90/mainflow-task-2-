@@ -39,3 +39,10 @@ Grouping data: groupby()
 Applying functions: apply(), map()
 Merging and joining DataFrames: merge(), join()
 Reshaping data: pivot_table(), melt(), stack(), unstack()
+
+## Data Cleaning and Preparation
+Handling missing values: fillna(), dropna(), imputation techniques
+Outlier detection and handling: Statistical methods, visualization, domain knowledge
+Data type conversions: astype()
+Text processing: str accessor, regular expressions
+Feature engineering: Creating new features from existing ones
