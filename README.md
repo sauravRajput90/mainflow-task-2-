@@ -17,40 +17,40 @@ Pandas is an efficient and versatile working environment for database processing
 
 # Key Data Manipulation Operations
 ## Data Ingestion and Export
--Reading data: Pandas can read data from various file formats like CSV, Excel, JSON, SQL, etc.  
--pd.read_csv('file.csv')  
--pd.read_excel('file.xlsx  
--Writing data: Export DataFrames to different formats.  
--df.to_csv('output.csv')  
--df.to_excel('output.xlsx')
+- Reading data: Pandas can read data from various file formats like CSV, Excel, JSON, SQL, etc.  
+- pd.read_csv('file.csv')  
+- pd.read_excel('file.xlsx  
+- Writing data: Export DataFrames to different formats.  
+- df.to_csv('output.csv')  
+- df.to_excel('output.xlsx')
 
 ## Data Exploration
--Viewing data: head(), tail(), sample()  
--Getting information: info(), describe(), dtypes  
--Checking for missing values: isnull(), isna(), fillna(), dropna()  
--Handling duplicates: drop_duplicates() 
+- Viewing data: head(), tail(), sample()  
+- Getting information: info(), describe(), dtypes  
+- Checking for missing values: isnull(), isna(), fillna(), dropna()  
+- Handling duplicates: drop_duplicates() 
 
 ## Data Manipulation
--Adding/removing columns: insert(), drop(columns=...)  
--Adding/removing rows: append(), concat(), drop(index=...)  
--Renaming columns: rename(columns=...)  
--Sorting data: sort_values(), sort_index()  
--Grouping data: groupby()  
--Applying functions: apply(), map()  
--Merging and joining DataFrames: merge(), join()  
--Reshaping data: pivot_table(), melt(), stack(), unstack()  
+- Adding/removing columns: insert(), drop(columns=...)  
+- Adding/removing rows: append(), concat(), drop(index=...)  
+- Renaming columns: rename(columns=...)  
+- Sorting data: sort_values(), sort_index()  
+- Grouping data: groupby()  
+- Applying functions: apply(), map()  
+- Merging and joining DataFrames: merge(), join()  
+- Reshaping data: pivot_table(), melt(), stack(), unstack()  
 
 
 
 ## Data Cleaning and Preparation
--Handling missing values: fillna(), dropna(), imputation techniques  
--Outlier detection and handling: Statistical methods, visualization, domain knowledge  
--Data type conversions: astype()  
--Text processing: str accessor, regular expressions  
--Feature engineering: Creating new features from existing ones  
+- Handling missing values: fillna(), dropna(), imputation techniques  
+- Outlier detection and handling: Statistical methods, visualization, domain knowledge  
+- Data type conversions: astype()  
+- Text processing: str accessor, regular expressions  
+- Feature engineering: Creating new features from existing ones  
 
 ## Key Considerations
--Performance: For large datasets, consider using optimized functions and data structures.  
--Data types: Ensure correct data types for efficient computations.  
--Missing values: Handle missing data appropriately using techniques like imputation or removal.  
--Outliers: Identify and handle outliers to avoid affecting analysis.
+- Performance: For large datasets, consider using optimized functions and data structures.  
+- Data types: Ensure correct data types for efficient computations.  
+- Missing values: Handle missing data appropriately using techniques like imputation or removal.  
+- Outliers: Identify and handle outliers to avoid affecting analysis.
